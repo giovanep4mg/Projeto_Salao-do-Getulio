@@ -1,0 +1,13 @@
+<section class="product__container">
+  <div class="product-imagem__container">
+      <img [src]="produto?.imagem">
+  </div>
+  <div class="product-description__container">
+      <h2 class="product__name">{{ produto?.nome }}</h2>
+      <br>
+      <h2 class="descricao-produto">{{ produto?.descricao | titlecase | uppercase }}</h2>
+  </div>
+</section>
+
+
+

@@ -43,14 +43,14 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
     font-family: 'barbeiro', Helvetica, Arial, "sans-serif";
-    background-image: url("/assets/barbearia3.png");
+    background-image: url("./assets/barbearia3.png");
     background-size: 170%;
 
     background-image: -webkit-repeating-radial-gradient(
     to bottom,
     rgba(255, 111, 0, 0.083),
     rgba(0, 0, 255, 0.086)
-  ), url("/assets/barbearia3.png");
+  ), url("./assets/barbearia3.png");
 
 
 
